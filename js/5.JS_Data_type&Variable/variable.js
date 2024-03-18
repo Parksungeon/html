@@ -1,20 +1,30 @@
 /*
-    변수 : 
-    - 
+    변수 : 데이터를 저장하는 공간에 이름을 부여한 것
+    - var, let, const 키워드를 사용하여 선언
 */
-
+var variable;
+let letVariable;
+const constVariable = 10;
 
 
 /*
-    변수의 중복 선언 : 
+    변수의 중복 선언 : var 키워드로 선언한 변수는 중복 선언 가능
 */
+var age = 23;
+var age = 30;
 
+// let로 선언한 변수는 중복 선언 불가능 
+let address = '부산시';
+// let address = '울산시';
 
 
 /*
-    동적 타이핑 : 
+    동적 타이핑 : 변수의 타입이 데이터가 할당된 순간에 데이터의 타입에 따라 결정됨
 */
-
+var variable = 10;
+console.log(typeof variable);
+variable = '10';
+console.log(typeof variable);
 
 
 /*
