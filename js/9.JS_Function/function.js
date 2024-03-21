@@ -36,6 +36,7 @@ const func3 = function (x, y) {
     return x + y;
 };
 func3(1, 2);
+console.log(func3(1, 2));
 
 /*
     콜백 함수 : 다른 함수에 매개변수로 전달하는 함수
