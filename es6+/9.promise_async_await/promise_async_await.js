@@ -36,13 +36,12 @@ console.log('==================================================');
 const asyncFunction = async () => {
     console.log('A point');
 
-    const result = await promise.catch((result) => { return result});
+    const result = await promise.catch((result) => { return result });
     console.log(result)
 
     console.log('B point');
 } 
 
 asyncFunction();
-
 
 console.log('==================================================');
